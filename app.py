@@ -234,7 +234,7 @@ label, .stTextInput label, .stSelectbox label, .stMultiSelect label { display:no
 # ── Load data ─────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    return pd.read_csv('/Users/edil/Desktop/Nermin/sreamlitnew/app.py')
+    return pd.read_csv('IMDB-Movie-Data.csv')
 
 df = load_data()
 
